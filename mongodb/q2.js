@@ -6,7 +6,3 @@ db.employees.insertOne({
   location: ["FL", "OH"],
   date: Date(),
 });
-
-db.employees.find()
-
-//show collections

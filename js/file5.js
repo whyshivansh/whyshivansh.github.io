@@ -4,7 +4,7 @@
 // }
 // greet()
 
-//IIFE
+// //IIFE
 // (function greet(){
 //     console.log("Good Afternoon")
 // })()
@@ -22,6 +22,6 @@
 
 function add() {
   console.log(arguments);
-  //   console.log(arguments[0]);
+    // console.log(arguments[0]);
 }
 add(5, 4);
