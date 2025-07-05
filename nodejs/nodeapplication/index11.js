@@ -1,5 +1,6 @@
 import express from "express";
 const app = express();
-app.listen(process.argv[2] || 8080, () => {
-  console.log("Server started");
+const port = process.argv[2] || 8080
+app.listen(port, () => {
+console.log(`Server started on ${port}`);
 });
