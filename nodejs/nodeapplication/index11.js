@@ -1,6 +1,5 @@
-import express from "express";
-const app = express();
-const port = process.argv[2] || 8080
-app.listen(port, () => {
-console.log(`Server started on ${port}`);
-});
+import dotenv from 'dotenv'
+dotenv.config()
+const dbuser = encodeURIComponent(process.env.DBUSER)
+const dbpass = encodeURIComponent(process.env.DBPASS)
+console.log(dbpass,dbuser)
